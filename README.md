@@ -1,6 +1,8 @@
 # lov3
 A little 3D implementation of the love2D engine using shadow volumes
 
+![alt text](example_b.png "example")
+
 This is just a hobby project, mostly to test the feasibility of shadow volumes. Anyone is free to do what they like with this.
 
 This requires love2D, and the entirety of the "3d-ification" of the engine lives in the single lov3.lua file.
