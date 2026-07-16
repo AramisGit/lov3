@@ -1,0 +1,171 @@
+entity
+	transform3.position 0 0 0
+	transform3.scale 1 1 1
+	transform3.rotation 0 0 0
+	entity
+		transform3.position 1.5 3.5 1.5
+		transform3.scale 1 1 1
+		transform3.rotation 0 0 0
+		entity
+			transform3.position 0 0 0
+			transform3.scale 1 1 1
+			transform3.rotation 0 6.2838020324707 0
+			entity
+				transform3.position 0 0 0
+				transform3.scale 1 1 1
+				transform3.rotation 0 0 0
+				entity
+					transform3.position 0 3 12
+					transform3.scale 1 1 1
+					transform3.rotation -0.26179999113083 0 0
+					name "camera"
+					camera3.depthStencilCanvas Canvas: 0x01b45b7c92f0
+					camera3.emissiveCanvas Canvas: 0x01b45b7c9d80
+					camera3.height 600
+					camera3.projection Transform: 0x01b4613304e0
+					camera3.width 600
+					camera3.canvas Canvas: 0x01b45b7c9a40
+				;
+				name "pitch"
+			;
+			name "yaw"
+		;
+		entity
+			transform3.position 0 0 0
+			transform3.scale 1.0000001192093 1 1.0000001192093
+			transform3.rotation 0 -0 0
+			light3.intensity 2
+			light3.useShadows true
+			light3.lightType "point"
+			light3.colour #0000FFFF
+			light3.attenuation 30
+			name "blue_light"
+			renderer3.unlit true
+			renderer3.emissive true
+			renderer3.hasShadows false
+			renderer3.transparent false
+			renderer3.colour #0000FFFF
+			mesh3.path "cube"
+		;
+		name "player"
+	;
+	entity
+		renderer3.unlit false
+		renderer3.emissive false
+		renderer3.hasShadows false
+		renderer3.transparent false
+		renderer3.colour #FFFFFFFF
+		name "plane_a"
+		mesh3.path "quad"
+		transform3.position 0 0 0
+		transform3.scale 16 16 16
+		transform3.rotation 0 0 0
+	;
+	entity
+		renderer3.unlit false
+		renderer3.emissive false
+		renderer3.hasShadows false
+		renderer3.transparent false
+		renderer3.colour #FFFFFFFF
+		name "plane_b"
+		mesh3.path "quad"
+		transform3.position 0 8 8
+		transform3.scale 16 16 16
+		transform3.rotation -1.5700000524521 0 0
+	;
+	entity
+		renderer3.unlit false
+		renderer3.emissive false
+		renderer3.hasShadows false
+		renderer3.transparent false
+		renderer3.colour #FFFFFFFF
+		name "plane_c"
+		mesh3.path "quad"
+		transform3.position 0 8 -8
+		transform3.scale 16 16 16
+		transform3.rotation 1.5700000524521 0 0
+	;
+	entity
+		renderer3.unlit false
+		renderer3.emissive false
+		renderer3.hasShadows false
+		renderer3.transparent false
+		renderer3.colour #FFFFFFFF
+		name "plane_d"
+		mesh3.path "quad"
+		transform3.position -8 8 0
+		transform3.scale 16 16 16
+		transform3.rotation 1.5700000524521 1.5700000524521 0
+	;
+	entity
+		renderer3.unlit false
+		renderer3.emissive false
+		renderer3.hasShadows false
+		renderer3.transparent false
+		renderer3.colour #FFFFFFFF
+		name "plane_e"
+		mesh3.path "quad"
+		transform3.position 8 8 0
+		transform3.scale 16 16 16
+		transform3.rotation 0 -1.5700000524521 1.5700000524521
+	;
+	entity
+		transform3.position -0.50000095367432 0.50000095367432 3.4997360706329
+		transform3.scale 1 1 1
+		transform3.rotation 0 -0 0
+		light3.intensity 2
+		light3.useShadows true
+		light3.lightType "point"
+		light3.colour #FF0000FF
+		light3.attenuation 30
+		name "red_light"
+		renderer3.unlit true
+		renderer3.emissive true
+		renderer3.hasShadows false
+		renderer3.transparent false
+		renderer3.colour #FF0000FF
+		mesh3.path "cube"
+	;
+	entity
+		renderer3.unlit false
+		renderer3.emissive false
+		renderer3.hasShadows true
+		renderer3.transparent false
+		renderer3.colour #FFFFFFFF
+		name "block_b"
+		mesh3.path "cube"
+		transform3.position 3.4999961853027 0.50000095367432 1.4999980926514
+		transform3.scale 1 1 1
+		transform3.rotation 0 -0 0
+	;
+	entity
+		renderer3.unlit false
+		renderer3.emissive false
+		renderer3.hasShadows true
+		renderer3.transparent false
+		renderer3.colour #FFFFFFFF
+		name "block_a"
+		mesh3.path "cube"
+		transform3.position 1.5 0.5 -1.5
+		transform3.scale 1 1 1
+		transform3.rotation 0 -0 0
+	;
+	entity
+		transform3.position -2.5 0.5 -1.5
+		transform3.scale 1 1 1
+		transform3.rotation 0 -0 0
+		light3.intensity 2
+		light3.useShadows true
+		light3.lightType "point"
+		light3.colour #00FF00FF
+		light3.attenuation 30
+		name "green_light"
+		renderer3.unlit true
+		renderer3.emissive true
+		renderer3.hasShadows false
+		renderer3.transparent false
+		renderer3.colour #00FF00FF
+		mesh3.path "cube"
+	;
+	name "mushy_level_test_scene"
+;
