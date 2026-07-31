@@ -12,7 +12,7 @@ Below that is the same scene with the shadows of each respective light as wirefr
 
 ![alt text](example.png "with shadows") ![alt text](example_with_volumes.png "with debug volumes")
 
-A comment from inside the lov3.lua file that describes the goal of this project:
+## A comment from inside the lov3.lua file that describes the goal of this project:
 
 The idea is that for our shadowing technique, we want to do shadow volumes. This is opposed to the standard shadowing method of 
     shadow-mapping.
