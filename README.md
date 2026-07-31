@@ -1,5 +1,5 @@
 # lov3
-A little 3D implementation of the love2D engine using shadow volumes.
+A lightweight 3D implementation of the [love2D](https://love2d.org/) engine using shadow volumes.
 
 ![alt text](example_b.png "example")
 
